@@ -517,6 +517,7 @@ nav ul li a:hover{
 }
 .project .muncim img {
     transition: all 0.4s;
+    cursor: pointer;
 }
 .project .muncimLink {
     position: absolute;
@@ -531,12 +532,12 @@ nav ul li a:hover{
     text-decoration: none;
     color: white;
     opacity: 0;
-    transform: scale(0.3);  
-    transition: all 0.5s;
+    transform: translateY(100%);  
+    transition: all 0.4s;
 }
 .project .muncim:hover .muncimLink{
     opacity: 1;
-    transform: scale(1);  
+    transform: translateY(0%);  
     
 }
 
