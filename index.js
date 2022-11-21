@@ -250,9 +250,6 @@ btnContact.addEventListener("click", (e)=>{
 })
 
 
-
-
-
 function sendMail(params) {
   var tempParams = {
     from_name: document.getElementById("toEmail").value,
